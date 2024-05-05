@@ -7,6 +7,7 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 3. Copy folders to *#:\PSP\GAME* (folders must contain *EBOOT.PBP*).
 4. Open the apps with your PSP.
 
+## Tests
 
 ### SDL2 Library
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkSDL2/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 5000 BUNNIES |
