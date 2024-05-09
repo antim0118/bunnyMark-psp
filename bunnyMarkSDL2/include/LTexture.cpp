@@ -15,24 +15,14 @@ LTexture::~LTexture()
 bool LTexture::loadFromFile(SDL_Renderer *renderer, const char* filename)
 {
     free();
-    
-	// unsigned char *image = stbi_load(filename, &mWidth, &mHeight, NULL, STBI_rgb_alpha);
-	// if (image == NULL){
-	// 	printf("Loading image failed: %s\n", stbi_failure_reason());
-	// 	return false;
-	// }
-	
-	//SDL_Surface *surface = SDL_CreateRGBSurfaceFrom((void *)image, mWidth, mHeight, 32, 4 * mWidth, 0x000000ff, 0x0000ff00, 0x00ff0000, 0xff000000);
     SDL_Surface *surface = IMG_Load(filename);
 	if (surface == NULL) {
 		printf("Creating surface failed: %s\n", SDL_GetError());
-		//stbi_image_free(image);
 		return false;
 	}
     
 	mTexture = SDL_CreateTextureFromSurface(renderer, surface);
 	SDL_FreeSurface(surface);
-	//stbi_image_free(image);
 	return true;
 }
 
@@ -40,7 +30,7 @@ bool LTexture::loadFromRenderedText(SDL_Renderer *renderer, const char* textureT
     free();
     
     //TTF_RenderUTF8_Solid -- КРАШИТ ИГРУ НА ПИХЕ!
-    SDL_Surface* textSurface = TTF_RenderUTF8_Blended(font, textureText, textColor);//TTF_RenderText_Solid(font, textureText, textColor);
+    SDL_Surface* textSurface = TTF_RenderUTF8_Blended(font, textureText, textColor);
     if(textSurface == NULL)
     {
         printf("Unable to render text surface! SDL_ttf Error: %s\n", TTF_GetError());

@@ -89,11 +89,9 @@ bool init()
 		return false;
 	}
 	
-	gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED);// | SDL_RENDERER_PRESENTVSYNC);
+	gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED);
 	SDL_SetRenderDrawBlendMode(gRenderer, SDL_BLENDMODE_BLEND);
 	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "0");
-	
-	//gScreenSurface = SDL_GetWindowSurface( gWindow );
 
     return true;
 }
@@ -109,8 +107,6 @@ bool loadAssets()
         printf("Failed to load font! SDL_ttf Error: %s\n", TTF_GetError());
         return false;
     }
-	
-	//texTitle.loadFromRenderedText(gRenderer, "ПИСЬКИ!", gFont, {255,255,255});
 	
     return true;
 }
@@ -185,7 +181,6 @@ int main(int argc, char *argv[]) {
 				
 				case SDL_JOYBUTTONDOWN:
 					if (e.jbutton.which == 0) {
-						printf("----------KEY-----:%i\n", e.jbutton.button);
 						if (e.jbutton.button == PSP_KEY_START)
 							quit = true;
 						else if(e.jbutton.button == PSP_KEY_CROSS)
