@@ -9,6 +9,12 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 
 ## Tests
 
+### [OldSchool Library (OSLib) MODv2](https://github.com/dogo/oslibmodv2)
+| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkOSLibMODv2/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| PSP | 60 FPS | 60 FPS | 60 FPS | 30 FPS | 15 FPS |
+| PPSSPP (Emulator) | 60 FPS | 60 FPS | 60 FPS | 30 FPS | 20 FPS |
+
 ### SDL2 Library
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkSDL2/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -28,9 +34,3 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | PSP | 20 FPS | 5-6 FPS | 2-3 FPS | 1-2 FPS | 1 FPS |
 | PPSSPP (Emulator) | 60 FPS | 17-19 FPS | 10 FPS | 4 FPS | 2-3 FPS |
-
-### [OldSchool Library (OSLib) MODv2](https://github.com/dogo/oslibmodv2)
-| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkOSLibMODv2/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| PSP | 60 FPS | 60 FPS | 60 FPS | 30 FPS | 15 FPS |
-| PPSSPP (Emulator) | 60 FPS | 60 FPS | 60 FPS | 30 FPS | 20 FPS |
