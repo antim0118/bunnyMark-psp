@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "compile",
+            "request": "launch",
+            "type": "cppvsdbg",
+            "program": "cmd.exe",
+            "args": [
+                "/c",
+                "compile.bat"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console":"integratedTerminal"
+        },
+        {
+            "name": "compile1 without clean",
+            "request": "launch",
+            "type": "cppvsdbg",
+            "program": "cmd.exe",
+            "args": [
+                "/c",
+                "compile1.bat"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console":"integratedTerminal"
+        }
+    ]
+}
