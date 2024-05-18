@@ -87,7 +87,7 @@ int main(int argc, char* argv[])
 			for (unsigned int i = 0; i < count; i++)
 			{
 				bunnys[i].process();
-				oslSetImageFrame(texBunny, i % 3);
+				oslSetImageFrame(texBunny, bunnys[i].frame);
 				oslDrawImageXY(texBunny, bunnys[i].x, bunnys[i].y);
 			}
 			
