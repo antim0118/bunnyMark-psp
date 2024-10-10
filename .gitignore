@@ -1,4 +1,5 @@
 
-/bunnyMarkSDL2/.vscode
+*/.vscode
 *.elf
 *.o
+bunnyMarkLuaPlayerPlus_r163/lpp_err.log
