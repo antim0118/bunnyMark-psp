@@ -68,6 +68,9 @@ function onTouchEnd()
 end
 
 local crossPressed = false
+local lastSecond = 0
+local countedFrames = 0
+local FPS = 60
 function update()
     screen:clear(bgColor)
 
@@ -97,7 +100,17 @@ function update()
         Image:blit(bunny.x, bunny.y, wabbitTexture, 255, 0, tex.x, tex.y, tex.w, tex.h)
     end
 
-    screen:intraFontPrint(2, 15, font, count .. " BUNNIES", fontFGColor, fontBGColor)	
+    if lastSecond ~= System.getTime().seconds then
+        lastSecond = System.getTime().seconds
+        FPS = countedFrames
+        countedFrames = 0
+    end
+    countedFrames = countedFrames + 1
+
+    screen:intraFontPrint(2, 15, font, tostring(FPS) .. " FPS", fontFGColor, fontBGColor)
+    screen:intraFontPrint(2, 30, font, count .. " BUNNIES", fontFGColor, fontBGColor)
+    
+    
 
 
     screen.flip()
