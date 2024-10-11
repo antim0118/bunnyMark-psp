@@ -22,7 +22,7 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 46 FPS | 19 FPS | 10 FPS |
 
 ### [LuaPlayerYT v0.4](https://vk.com/nomoreyuliateam)
-| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerYT04/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 3700 BUNNIES* |
+| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerYTv04/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 3700 BUNNIES* |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | PSP | 60 FPS | 20 FPS | 12 FPS | 5-6 FPS | 3-4 FPS |
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 30 FPS | 15 FPS | 10 FPS |
