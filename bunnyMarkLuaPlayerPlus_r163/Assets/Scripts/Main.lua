@@ -109,12 +109,8 @@ function update()
 
     screen:intraFontPrint(2, 15, font, tostring(FPS) .. " FPS", fontFGColor, fontBGColor)
     screen:intraFontPrint(2, 30, font, count .. " BUNNIES", fontFGColor, fontBGColor)
-    
-    
-
 
     screen.flip()
-    --sleep(0.016)
 end
 
 onReady()
