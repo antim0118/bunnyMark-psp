@@ -15,7 +15,7 @@ minX = 0
 maxY = height
 minY = 0
 
-startBunnyCount = 3000
+startBunnyCount = 2
 isAdding = false
 count = 0
 
