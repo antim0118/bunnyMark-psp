@@ -34,7 +34,7 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 30 FPS | 15 FPS | 10 FPS |
 `* - Crashes after 3745 bunnies`
 
-### [ONEluav4R1](http://onelua.x10.mx/)
+### [ONElua v4R1](http://onelua.x10.mx/)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkONEluav4R1/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | PSP | 60 FPS | 20 FPS | 12 FPS | 5 FPS | 3 FPS |
