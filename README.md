@@ -21,6 +21,12 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 | PSP | 60 FPS | 60 FPS | 37 FPS | 16 FPS | 8 FPS |
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 46 FPS | 19 FPS | 10 FPS |
 
+### [LuaPlayer Euphoria v8](https://www.brewology.com/downloads/download.php?id=11378&mcid=1) (LPE_V8)
+| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLPE_V8/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| PSP | 60 FPS | 44 FPS | 22-23 FPS | 9 FPS | 4 FPS |
+| PPSSPP (Emulator) | 60 FPS | 60 FPS | 46 FPS | 18 FPS | 9 FPS |
+
 ### [LuaPlayerYT v0.4](https://vk.com/nomoreyuliateam)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerYTv04/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 3700 BUNNIES* |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
