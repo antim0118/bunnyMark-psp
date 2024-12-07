@@ -27,6 +27,12 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 | PSP | 60 FPS | 44 FPS | 22-23 FPS | 9 FPS | 4 FPS |
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 46 FPS | 18 FPS | 9 FPS |
 
+### [Phoenix Game Engine 0.02](https://archive.org/details/pgelua.7z)
+| ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkPhoenixGameEngine/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| PSP | 60 FPS | 30 FPS | 20 FPS | 9 FPS | 4-5 FPS |
+| PPSSPP (Emulator) | 60 FPS | 60 FPS | 30 FPS | 12 FPS | 7 FPS |
+
 ### [LuaPlayerYT v0.4](https://vk.com/nomoreyuliateam)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerYTv04/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 3700 BUNNIES* |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
