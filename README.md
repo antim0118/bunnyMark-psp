@@ -24,8 +24,8 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 ### [LuaPlayer Euphoria v8](https://www.brewology.com/downloads/download.php?id=11378&mcid=1)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerEuphoria_V8/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| PSP | 60 FPS | 44 FPS | 22-23 FPS | 9 FPS | 4 FPS |
-| PPSSPP (Emulator) | 60 FPS | 60 FPS | 46 FPS | 18 FPS | 9 FPS |
+| PSP | 60 FPS | 47 FPS | 23-24 FPS | 9-10 FPS | 4-5 FPS |
+| PPSSPP (Emulator) | 60 FPS | 60 FPS | 50 FPS | 19-20 FPS | 9-10 FPS |
 
 ### [Phoenix Game Engine 0.02](https://archive.org/details/pgelua.7z)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkPhoenixGameEngine/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
@@ -36,15 +36,15 @@ Benchmark for PSP based on [Pixijs's BunnyMark](https://www.goodboydigital.com/p
 ### [LuaPlayerYT v0.4](https://vk.com/nomoreyuliateam)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkLuaPlayerYTv04/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 3700 BUNNIES* |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| PSP | 60 FPS | 20 FPS | 12 FPS | 5-6 FPS | 3-4 FPS |
+| PSP | 60 FPS | 20 FPS | 12 FPS | 5 FPS | 3-4 FPS |
 | PPSSPP (Emulator) | 60 FPS | 60 FPS | 30 FPS | 15 FPS | 10 FPS |
 `* - Crashes after 3745 bunnies`
 
 ### [ONElua v4R1](http://onelua.x10.mx/)
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkONEluav4R1/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 5000 BUNNIES |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| PSP | 60 FPS | 20 FPS | 12 FPS | 5 FPS | 3 FPS |
-| PPSSPP (Emulator) | 60 FPS | 30 FPS | 20 FPS | 10 FPS | 6 FPS |
+| PSP | 60 FPS | 20 FPS | 12 FPS | 6 FPS | 3 FPS |
+| PPSSPP (Emulator) | 60 FPS | 30 FPS | 23-29 FPS | 12 FPS | 6 FPS |
 
 ### Gamemaker 8.1 ([Chovy-GM](https://github.com/LiEnby/chovy-gm))
 | ![ICON0](https://raw.githubusercontent.com/antim0118/bunnyMark-psp/master/bunnyMarkGamemaker81/ICON0.png "ICON0") | 100 BUNNIES | 500 BUNNIES | 1000 BUNNIES | 2500 BUNNIES | 4000 BUNNIES* |
